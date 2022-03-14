@@ -1,0 +1,22 @@
+/*  */
+h1{
+    background-color: blue;
+    width: 300px;
+    height: 300px;
+}
+ul li {
+    list-style: none;
+    background-color: blueviolet;
+    width: 300px;
+    height: 300px;
+}
+div.col-6{
+    padding: 60px;
+    
+}
+p {
+    padding: auto;
+}
+p{
+    padding-left: 170px;
+}
