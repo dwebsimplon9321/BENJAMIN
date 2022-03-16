@@ -1,0 +1,145 @@
+body {
+    width: 1024px;
+    margin: auto;
+    border: 1px solid gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+header {
+    width: 1024px;
+}
+header div {
+    display : flex;
+    padding-top: 10px;
+}
+header div div {
+    margin-left: 30px;
+    width: 512px;
+}
+div.divR p {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin-left: 148px;
+}
+/* MENU */
+div.menu {
+    width: 1024px;
+    height: 100px;
+
+}
+div.menu ul  {
+    display: flex;
+}
+div.menu ul li {
+    width: 115px;
+    text-align: center;
+    background-color:#2d7ec0 ;
+    color: white;
+}
+div.menu ul li:first-child {
+    width: 195px;
+    background-color: white;
+}
+div.menu ul li:nth-child(6) {
+    width: 140px;
+}
+div.menu ul li:first-child a img {
+    height: 100px;
+    margin-top: -10px;
+}
+div.menu ul li svg {
+    width: 50px;
+    height: 50px;
+}
+div.menu ul li {
+    color: white;
+}
+div.menu ul li a {
+    text-decoration: none;
+    color: white;
+}
+div.menu ul li:hover {
+    background-color: white;
+    color:black
+}
+div.menu ul li:hover a {
+    color:black
+}
+
+/* MAIN */
+#main {
+    width: 1024px;
+}
+#main div.enteteM {
+    display: flex;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+#main div.enteteM div.gauche {
+    width: 624px;
+}
+#main div.enteteM div.droite {
+    width: 400px;
+}
+#main div.enteteM div.gauche h1 {
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 2;
+    margin-left: 20px;
+}
+#main div.enteteM div.droite p {
+    font-size: 12px;
+    padding: 5px;
+}
+#main div.enteteM div.droite p b {
+    font-weight: bold;
+}
+#main div.enteteM div.droite p spam {
+    font-size: 10px;
+}
+#main div.enteteM div.droite ul {
+    font-size: 12px;
+    padding: 5px;
+}
+#main div.enteteM div.droite ul li {
+    display: inline-block;
+
+}
+#main div.enteteM div.droite ul li.pmain {
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+
+/* BLOC TABLEAUX */
+div.bktable {
+    display: flex;
+    padding: 10px;
+    }
+div.bktable div .table {
+    font-size: 12px;
+    border-left: 1 px solid gray;
+    border-right: 1 px solid gray;
+    }
+div.bktable div .table tr th {
+    background-color: blue;
+    color: white;
+}
+div.bktable div table.table tr th span {
+    color: #f17d2a ;
+    font-weight: bold;
+}
+div.bktable div {
+    width: 301px;
+}
+div.bktable div:nth-child(2) {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+div.bktable div table.table tr td.bkp {
+    background-color: greenyellow;
+    color: white;
+    text-align: center;
+}

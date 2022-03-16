@@ -1,0 +1,93 @@
+/*   c'est un commentaire    */
+
+/* general */
+html {
+    background-color: red;
+}
+header {
+    display: flex;
+}
+header {
+    background-color: blue;
+}
+header div > img {
+    background-color: yellow;
+    width: 100px;
+}
+header div:first-child {
+    width: 100px;
+}
+header div:last-child {
+    width: 800px;
+    background-color: black;
+}
+header div:last-child > ul {
+    width: 800px;
+}
+header div:last-child > div {
+    position: relative;
+    float: left;
+    width: 400px;
+}
+/* MENU PRINCIPAL */
+header div:last-child > ul li {
+    display: inline;
+}
+header div:last-child > ul li > a {
+    width: 150px;
+    display: inline-block;
+}
+a {
+    color: white;
+}
+a:hover {
+    color: yellow;
+}
+header div div:nth-child(2) ul li a {
+    color: yellow;
+}
+header div div:nth-child(2) ul li a:hover {
+    color: white;
+}
+
+/*
+header div:last-child > div:last-child > ul li > a {
+    text-decoration: none;
+} */
+/*
+ Dans la 2ème division se trouve 3 enfants (ul, div, div)
+*/
+header > div:nth-child(2) > div:nth-child(3) > ul > li > a {
+    text-decoration: none;
+}
+header div:nth-child(2) > ul li:nth-child(5) >  a {
+    color: red;
+}
+
+/* MAIN */
+main {
+    background-color: white;
+}
+main div:first-child {
+    width: 200px;
+    height: 600px;
+    background-color: chartreuse;
+    position: relative;
+    float: left;
+}
+main div:nth-child(2), main div:nth-child(3), main div:nth-child(4), 
+main div:nth-child(5), main div:nth-child(6) {
+    width: 600px;
+    background-color: brown;
+    margin-left: 200px;
+}
+h1 {
+    font-size: 48px;
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    margin-top: 200px;
+    padding-top: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

@@ -1,0 +1,7 @@
+/*   */
+div.col:first-child {
+    background-color:mediumpurple;
+}
+div.col:last-child {
+    background-color:lightseagreen;
+}
